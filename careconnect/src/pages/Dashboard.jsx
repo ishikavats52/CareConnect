@@ -7,7 +7,7 @@ const Dashboard = () => {
   return (
     <div className="min-h-screen bg-[#111] text-white">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
-        {/* Emergency Button */}
+    
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -16,7 +16,7 @@ const Dashboard = () => {
           <SOS />
         </motion.div>
 
-        {/* Status Card */}
+        
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -35,7 +35,7 @@ const Dashboard = () => {
           </div>
         </motion.div>
 
-        {/* Recent Alerts */}
+        
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -47,14 +47,14 @@ const Dashboard = () => {
             <h2 className="text-xl font-semibold">Recent Alerts</h2>
           </div>
           <div className="space-y-4">
-            {/* Sample alerts - replace with real data */}
+            
             <div className="bg-[#2A2A2A] p-4 rounded-lg">
               <p className="text-sm text-gray-400">No recent alerts</p>
             </div>
           </div>
         </motion.div>
 
-        {/* Nearby Responders */}
+        
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -66,14 +66,13 @@ const Dashboard = () => {
             <h2 className="text-xl font-semibold">Nearby Responders</h2>
           </div>
           <div className="space-y-4">
-            {/* Sample responders - replace with real data */}
-            <div className="bg-[#2A2A2A] p-4 rounded-lg">
+             <div className="bg-[#2A2A2A] p-4 rounded-lg">
               <p className="text-sm text-gray-400">No active responders nearby</p>
             </div>
           </div>
         </motion.div>
 
-        {/* Map View */}
+       
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
