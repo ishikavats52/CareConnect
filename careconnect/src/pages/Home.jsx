@@ -77,8 +77,7 @@ const Home = () => (
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, delay: 0.4 }}
-      className="max-w-3xl mt-16 text-center text-gray-400"
-    >
+      className="max-w-3xl mt-16 text-center text-gray-400">
       <h2 className="text-2xl font-bold mb-2 text-[#E53935]">How CareConnect Works</h2>
       <ol className="list-decimal list-inside text-left mx-auto max-w-xl">
         <li className="mb-2"><span className="text-[#E53935] font-semibold">Sign Up:</span> Register as a user or responder and join the safety network.</li>
